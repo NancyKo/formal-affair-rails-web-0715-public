@@ -1,4 +1,5 @@
 class ConcretesController < ApplicationController
+  
   def new
     @concrete = Concrete.new
   end
@@ -14,4 +15,5 @@ class ConcretesController < ApplicationController
   def update
     render nothing: true
   end
+
 end
